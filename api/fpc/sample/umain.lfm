@@ -1,0 +1,209 @@
+object frmMain: TfrmMain
+  Left = 720
+  Height = 474
+  Top = 160
+  Width = 428
+  ActiveControl = txtPort
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'ZFM20 Fingerprint Demo'
+  ClientHeight = 474
+  ClientWidth = 428
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.4.4.0'
+  object btnCheck: TButton
+    Left = 8
+    Height = 25
+    Top = 72
+    Width = 120
+    Caption = '&Availability'
+    Default = True
+    OnClick = btnCheckClick
+    TabOrder = 0
+  end
+  object btnCapture: TButton
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 120
+    Caption = '&Capture'
+    OnClick = btnCaptureClick
+    TabOrder = 1
+  end
+  object btnGet: TButton
+    Left = 8
+    Height = 25
+    Top = 136
+    Width = 120
+    Caption = '&Download'
+    OnClick = btnGetClick
+    TabOrder = 2
+  end
+  object grpPreview: TGroupBox
+    Left = 136
+    Height = 317
+    Top = 72
+    Width = 283
+    Caption = ' Preview '
+    ClientHeight = 297
+    ClientWidth = 279
+    TabOrder = 4
+    object imgPreview: TImage
+      Left = 11
+      Height = 288
+      Top = 0
+      Width = 256
+    end
+  end
+  object grpHelp: TGroupBox
+    Left = 8
+    Height = 74
+    Top = 392
+    Width = 412
+    ClientHeight = 54
+    ClientWidth = 408
+    TabOrder = 5
+    object lblHelp: TLabel
+      Left = 38
+      Height = 48
+      Top = 0
+      Width = 358
+      AutoSize = False
+      Caption = 'To capture fingerprint hold finger to the sensor and press "Capture" button. To get captured fingerprint image press "Download" button. In serial interface download take some time to complete.'
+      ParentColor = False
+      WordWrap = True
+    end
+    object imgHelp: TImage
+      Left = 8
+      Height = 22
+      Top = 0
+      Width = 22
+      AutoSize = True
+      Picture.Data = {
+        1754506F727461626C654E6574776F726B477261706869634F05000089504E47
+        0D0A1A0A0000000D4948445200000016000000160806000000C4B46C3B000000
+        0473424954080808087C0864880000001974455874536F667477617265007777
+        772E696E6B73636170652E6F72679BEE3C1A000004E149444154388D8D946B6C
+        544518869F9933E7B66D81826D973BBB6C2D972D77E42A010924B220261A1212
+        43542228282646A45E127F18654948D088C81FF80151131323216C00C17211A4
+        1025949652E8655B0A94364528B4DDB6DB738E3F76DBA08038C99BF933F3CC97
+        79BFF7139EE7F1A41588440D200CDC036AE2B1A2275E128F030722D119C03A60
+        363012E804645A978113C0D678ACE8E6FF02A7ABDB0CAC0D87FC1973268E241C
+        F25398EF07A0BCBA89B2EA464E5FA84B9657372580B7E2B1A2EFFF131C8844C7
+        0231DB54B99B5E5B90B178563EC5E76A28AF6DA2A2B619292485213FE1501EF3
+        A70638F4FB55A2BB8FB525BA92278015F15851C743E040246A0295E3827923BF
+        F9F04571AEBC81AD7B7FA33BE9A09486A649A49408211002326D837757CE667C
+        308777A2FBBBCAAA1BF7C663456F3C0ABCCDB6F43507B7BFEEDBBAE72427CED7
+        317DFC705E5A389E09213F39D919247B1C1A6FB771E84C15FB4F56E2B81E0BA6
+        0658B56412CFAFDFD59EE84A2E8BC78A8EF581D346157FB66EB14FD7353EDF75
+        1CD3D0D9B8EA59562C2A7CA4B93FFE7A893DB1521CD7E5BD953369B9DBCEC75F
+        1F6CF63C46C763456D327DEEED4905837DCF3D1362DB77A7314D1DD3D4F180C3
+        25D57CB2B398B55B0EF0C3914B7DE085D302D8B6896D19EC3E7081C533F3993C
+        6668061021DD3A00B3E74E0E70A4A48A1EC7C3D015A6A1B3F750193B7FFE93AB
+        D7EFD09670385D76BD0FAC3489CF36B02D03C7139CABB8C9BC69A37DC04C0019
+        88442D60C484FCC154C49BD1750D4357188642571AA6A16399063EDB60F5D249
+        7DE08BB52DD89689651958A6415DE35D0A437E21A598D75BF144205198EFA7B2
+        AE05A534745DF5C93052DFB276F964263F9D07C0B5A67BC44AEAB02D03DB3430
+        4D9DFAA6FB8C1D9583E779630114D0064821045293284D4369123DFD80A12B5E
+        981B62DA985440EA9BEEB3F7E8557443474889940204E84AA55A11D1D95BF165
+        4055D436130EE621A544D352529A86521A1343B97D5F505C7A135DD7B12D03CB
+        D4310C1D5D29460FCBE6EAB51684141700543C56E40622D1CA8A9A5B13C70573
+        29B97403295361D0A440D3243BF65DC4671B58969182DA063D8E8B001CC725A9
+        24C121FDA9A86E741DC73DF960579C38555AEFCC9F1AC032542A39904E99E095
+        4563581309F3EAA202B2B32C7CB689AE34A4261152601B8AC2600EC567AB3A81
+        9207C15B4A4AEB1367CB1B58BD7C0A001EE0E1E1791EB9D93EFC037DE40EB0C1
+        73497476D3D3E3E0BA2E9EEBB17456905317EABDF395372A80C37DE0F4E85BFF
+        E9B7BF74CC0C0F634AC1605CD7C5753C5CD74DBD925E5DDD3D24125D747625E9
+        4EF65030AC3F017F161F7D15EB701C7745EFACFEC7740B2E8D1E99513872DEB6
+        F79719E7AFDCE2A7E395084DC3327B8D5228A52185406982C5538713F0F763FD
+        E67D1D7F5C6AD8587B60D38E5ED6BFC766A610627B5686F9F2171B96644C1F37
+        94F3576E71ADF93E375ADAD1758D51FE018CC8CBA230308833650DDEA62F0F74
+        B477747FF020F4213029C332FDB3DE8CD8D92376CC9912F4CD9F1632C3A3F344
+        FE8841005437FC4579CD2DF7E8992BC9B3A535B5B7AB8E6D68AD3E761968F53C
+        AFED9160214436301018A467E40CE91798BBD0C8CC099B594F15A03272048EEB
+        74B636275A1BABBA5B1B2FB7D61C3F0DDE6DE00E701BB8E9795EE271152BC006
+        7C40565AFD80CCB4D9095269BD9FDEDBD3EAF41E80FD0DC222E720F73E8C4000
+        00000049454E44AE426082
+      }
+    end
+  end
+  object grpOptions: TGroupBox
+    Left = 8
+    Height = 57
+    Top = 8
+    Width = 411
+    Caption = ' Options '
+    ClientHeight = 37
+    ClientWidth = 407
+    TabOrder = 6
+    object lblPort: TLabel
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 25
+      Caption = '&Port:'
+      FocusControl = txtPort
+      ParentColor = False
+    end
+    object txtPort: TEdit
+      Left = 40
+      Height = 23
+      Top = 5
+      Width = 80
+      TabOrder = 0
+      Text = 'COM3'
+    end
+    object lblBaud: TLabel
+      Left = 128
+      Height = 15
+      Top = 8
+      Width = 30
+      Caption = '&Baud:'
+      FocusControl = txtBaud
+      ParentColor = False
+    end
+    object txtBaud: TEdit
+      Left = 168
+      Height = 23
+      Top = 5
+      Width = 80
+      TabOrder = 1
+      Text = '57600'
+    end
+    object lblDevID: TLabel
+      Left = 256
+      Height = 15
+      Top = 8
+      Width = 52
+      Caption = 'D&evice ID:'
+      FocusControl = txtDevID
+      ParentColor = False
+    end
+    object txtDevID: TEdit
+      Left = 316
+      Height = 23
+      Top = 5
+      Width = 80
+      TabOrder = 2
+      Text = 'FFFFFFFF'
+    end
+  end
+  object btnSave: TButton
+    Left = 8
+    Height = 25
+    Top = 168
+    Width = 120
+    Caption = '&Save'
+    OnClick = btnSaveClick
+    TabOrder = 3
+  end
+  object dlgFileSave: TSaveDialog
+    Title = 'Save file as...'
+    DefaultExt = '.bmp'
+    Filter = '24-bit Bitmap file (*.bmp)|*.bmp'
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 264
+    top = 240
+  end
+end

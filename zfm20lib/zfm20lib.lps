@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="zfm20lib.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="356"/>
+        <CursorPos X="41" Y="368"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uzfm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="2" Y="22"/>
+        <UsageCount Value="30"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\synalist-203\synaser.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="341"/>
+        <CursorPos X="15" Y="358"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\synalist-203\synautil.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1972"/>
+        <CursorPos X="3" Y="1981"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="25" Y="25"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\inc\heaph.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="66"/>
+        <CursorPos X="10" Y="93"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="23" Column="6"/>
+      </Position1>
+      <Position2>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="35" Column="56" TopLine="19"/>
+      </Position2>
+      <Position3>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="74" Column="54" TopLine="44"/>
+      </Position3>
+      <Position4>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="81" Column="23" TopLine="57"/>
+      </Position4>
+      <Position5>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="42" Column="12" TopLine="34"/>
+      </Position5>
+      <Position6>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="9" Column="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="44" Column="12" TopLine="36"/>
+      </Position7>
+      <Position8>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="139" Column="65" TopLine="112"/>
+      </Position8>
+      <Position9>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="187" Column="7" TopLine="156"/>
+      </Position9>
+      <Position10>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="165" Column="9" TopLine="154"/>
+      </Position10>
+      <Position11>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="217" Column="67" TopLine="191"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uzfm.pas"/>
+        <Caret Line="132" Column="61" TopLine="115"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uzfm.pas"/>
+        <Caret Line="138" Column="35" TopLine="103"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uzfm.pas"/>
+        <Caret Line="14" Column="26" TopLine="3"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uzfm.pas"/>
+        <Caret Line="56" Column="26" TopLine="37"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uzfm.pas"/>
+        <Caret Line="76" Column="21" TopLine="57"/>
+      </Position16>
+      <Position17>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="185" Column="32" TopLine="170"/>
+      </Position17>
+      <Position18>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="172" Column="12" TopLine="160"/>
+      </Position18>
+      <Position19>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="190" Column="27" TopLine="179"/>
+      </Position19>
+      <Position20>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="108" Column="12" TopLine="97"/>
+      </Position20>
+      <Position21>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="45" Column="12" TopLine="34"/>
+      </Position21>
+      <Position22>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="7" Column="45"/>
+      </Position22>
+      <Position23>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="382" Column="7" TopLine="313"/>
+      </Position23>
+      <Position24>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="387" Column="63" TopLine="379"/>
+      </Position24>
+      <Position25>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="418" Column="42" TopLine="396"/>
+      </Position25>
+      <Position26>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="442" Column="49" TopLine="405"/>
+      </Position26>
+      <Position27>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="8"/>
+      </Position27>
+      <Position28>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="50" TopLine="42"/>
+      </Position28>
+      <Position29>
+        <Filename Value="zfm20lib.lpr"/>
+        <Caret Line="116" Column="11" TopLine="106"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
